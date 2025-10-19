@@ -1,118 +1,84 @@
-# URL Curt - Encurtador de Links Fullstack
+# 🚀 URL Curt - Encurtador de Links Fullstack
 
-## Descrição
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**URL Curt** é uma aplicação Fullstack desenvolvida com **Node.js**, **Next.js** e **TypeScript**, que permite aos usuários encurtar URLs de forma simples e eficiente. O projeto oferece uma interface intuitiva para criar links curtos personalizados e redirecionamentos rápidos.
+---
 
-## Tecnologias Utilizadas
+## ✨ Descrição
 
-**Frontend:**
+**URL Curt** é uma aplicação **Fullstack** futurista desenvolvida com **Node.js**, **Next.js** e **TypeScript**, projetada para encurtar URLs de forma **rápida, segura e eficiente**. Crie links curtos personalizados e compartilhe de forma inteligente.
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
+---
 
-**Backend:**
+## 🛠️ Tecnologias
 
-* Node.js
-* Express
-* TypeScript
-* dotenv
+| Frontend     | Backend    | Banco de Dados |
+| ------------ | ---------- | -------------- |
+| Next.js      | Node.js    | MongoDB        |
+| React        | Express    | Mongoose       |
+| TypeScript   | TypeScript |                |
+| Tailwind CSS | dotenv     |                |
 
-**Banco de Dados:**
+---
 
-* MongoDB (via Mongoose)
-
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```
 urlcurt/
 ├── backend/
 │   ├── src/
-│   │   ├── controllers/
-│   │   │   └── urlController.ts
-│   │   ├── models/
-│   │   │   └── Url.ts
-│   │   ├── routes/
-│   │   │   └── urlRoutes.ts
-│   │   └── server.ts
+│   │   ├── controllers/  🛠️
+│   │   ├── models/       🗃️
+│   │   ├── routes/       🌐
+│   │   └── server.ts     ⚡
 │   ├── .env
-│   ├── package.json
 │   └── tsconfig.json
 └── frontend/
-    ├── components/
-    │   └── UrlForm.tsx
-    ├── pages/
-    │   └── index.tsx
-    ├── public/
-    │   └── favicon.ico
-    ├── styles/
-    │   └── globals.css
-    ├── package.json
+    ├── components/       🧩
+    ├── pages/            🖥️
+    ├── public/           🖼️
+    ├── styles/           🎨
     └── tsconfig.json
 ```
 
-## Como Rodar o Projeto
+---
+
+## ⚡ Como Rodar
 
 ### Backend
 
-1. Navegue até o diretório do backend:
-
 ```bash
 cd backend
-```
-
-2. Instale as dependências:
-
-```bash
 npm install
-```
-
-3. Crie um arquivo `.env` com as variáveis:
-
-```
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
-
-4. Inicie o servidor:
-
-```bash
+# Configure .env
 npm run dev
 ```
 
-O backend estará rodando em `http://localhost:5000`.
+🔹 Backend: `http://localhost:5000`
 
 ### Frontend
 
-1. Navegue até o diretório do frontend:
-
 ```bash
 cd frontend
-```
-
-2. Instale as dependências:
-
-```bash
 npm install
-```
-
-3. Inicie o servidor de desenvolvimento:
-
-```bash
 npm run dev
 ```
 
-O frontend estará disponível em `http://localhost:3000`.
+🔹 Frontend: `http://localhost:3000`
 
-## Endpoints da API
+---
 
-### POST /api/shorten
+## 🌐 Endpoints da API
+
+### `POST /api/shorten` ✏️
 
 Cria um link curto.
 
-**Request Body:**
+**Request:**
 
 ```json
 {
@@ -128,30 +94,33 @@ Cria um link curto.
 }
 ```
 
-### GET /:shortenedId
+### `GET /:shortenedId` 🔗
 
 Redireciona para a URL original.
 
-**Parâmetros:**
+---
 
-* `shortenedId`: ID do link curto.
-
-**Response:**
-Redireciona para a URL original.
-
-## Testes
-
-Para rodar os testes:
+## 🧪 Testes
 
 ```bash
 npm run test
 ```
 
-## Licença
+---
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+## 📌 Licença
 
-## Autor
+MIT License
+
+---
+
+## 👨‍💻 Autor
 
 **Laudier**
-[GitHub]([https://github.com/josesantanadeveloper-s](https://github.com/josesantanadeveloper-s)
+[GitHub](https://github.com/josesantanadeveloper-spec) • [LinkedIn](https://linkedin.com/in/seuusuario)
+
+---
+
+## 🌌 Visual Futurista
+
+Este projeto combina tecnologia moderna e design clean para um **controle total sobre links**, pronto para **escala e performance**.
