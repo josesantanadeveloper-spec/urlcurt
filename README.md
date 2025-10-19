@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
@@ -18,8 +18,8 @@
 
 | Frontend     | Backend    | Banco de Dados |
 | ------------ | ---------- | -------------- |
-| Next.js      | Node.js    | MongoDB        |
-| React        | Express    | Mongoose       |
+| Next.js      | Node.js    | PostgreSQL     |
+| React        | Express    | Prisma         |
 | TypeScript   | TypeScript |                |
 | Tailwind CSS | dotenv     |                |
 
