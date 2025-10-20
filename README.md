@@ -82,7 +82,7 @@ Cria um link curto.
 
 ```json
 {
-  "url": "https://www.exemplo.com"
+  "url": "https://urlcurt.site/api/docs"
 }
 ```
 
@@ -90,7 +90,7 @@ Cria um link curto.
 
 ```json
 {
-  "shortenedUrl": "http://localhost:5000/abc123"
+  "shortenedUrl": "http://localhost:5000/api"
 }
 ```
 
