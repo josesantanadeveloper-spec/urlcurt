@@ -129,6 +129,62 @@ router.post('/api/recover-password', async (req: any, res: any) => {
   }
 });
 
+// Documentação da API
+router.get('/api/docs', (req, res) => {
+  res.send(`
+    <html>
+      <head>
+        <title>Documentação da API</title>
+        <style>
+          body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+          h1 { color: #333; }
+          pre { background: #fff; padding: 15px; border: 1px solid #ccc; overflow-x: auto; }
+          code { color: #c7254e; background-color: #f9f2f4; padding: 2px 4px; border-radius: 4px; }
+        </style>
+      </head>
+      <body>
+        <h1>📘 Documentação da API</h1>
+
+        <h2>🔐 Registro de Usuário</h2>
+        <pre>
+        POST /api/register
+        Body:
+        {
+          "name": "João",
+          "email": "joao@email.com",
+          "password": "senha123",
+          "phone": "+5511999999999",
+          "access" : "Admin",
+          "age": 30
+        }
+        </pre>
+
+        <h2>🔑 Recuperação de Senha</h2>
+        <pre>
+        POST /api/recover-password
+        Body:
+        {
+          "email": "joao@email.com"
+        }
+        </pre>
+
+        <!-- Aqui você pode continuar adicionando outras rotas -->
+        <h2>📍 Outras Rotas (Exemplo)</h2>
+        <ul>
+          <li><code>POST /api/login</code></li>
+          <li><code>GET /api/me</code> (Requer Token)</li>
+          <li><code>POST /api/urls</code> - Encurtar URL</li>
+        </ul>
+
+        <p>🛡️ Endpoints protegidos exigem o envio do token JWT no header:</p>
+        <pre>
+Authorization: Bearer &lt;token&gt;
+        </pre>
+      </body>
+    </html>
+  `);
+});
+
 // (Demais rotas continuam iguais...)
 // Aqui você mantém todas as suas outras rotas (login, /api/me, /api/urls, etc.)
 
