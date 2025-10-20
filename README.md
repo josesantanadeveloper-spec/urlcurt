@@ -90,7 +90,7 @@ Cria um link curto.
 
 ```json
 {
-  "shortenedUrl": "http://localhost:5000/api"
+  "shortenedUrl": "http://localhost:4000/api"
 }
 ```
 
