@@ -117,7 +117,7 @@ MIT License
 ## 👨‍💻 Autor
 
 **Laudier**
-[GitHub](https://github.com/josesantanadeveloper-spec) • [LinkedIn](https://linkedin.com/in/seuusuario)
+[GitHub](https://github.com/josesantanadeveloper-spec) • [LinkedIn](https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/)
 
 ---
 
